@@ -1,0 +1,15 @@
+﻿<Window x:Class="HackatonAccess2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:HackatonAccess2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Image Source="Image/announcement.png"></Image>
+        <Label Content="            Announce Me" HorizontalAlignment="Center" Height="40" Margin="130,10,112.333,0" VerticalAlignment="Top" Width="351" FontSize="26" FontFamily="Segoe UI" RenderTransformOrigin="0.089,1.153"/>
+        <TextBox Name="voice" HorizontalAlignment="Left" Height="85" Margin="230,87,0,0" TextWrapping="Wrap"  VerticalAlignment="Top" Width="351" Text="{Binding Text}"/>
+        <Button x:Name="sendButton"  Content="Send" HorizontalAlignment="Left" Margin="142,120,0,0" VerticalAlignment="Top" Width="75" Command="{Binding SendCommand}"/>
+    </Grid>
+</Window>
