@@ -4,8 +4,7 @@ We addressed the issue that deaf people do not hear the announcing systems in di
 The system consists of 3 parts:
 
 ## Web program
-The web program connect to the system announces and knows when a new message is coming, when there is a new massage the program send to the next part.
-the web progeam is at C#.
+The web component connects to the announcements system and checks for new messages. When a new message is broadcasted, the program receives it and sends it to the next component. The web component is implemented in C#.
 
 ![](DesHa.JPG)
 
@@ -13,10 +12,9 @@ The program listener to all the massage that come, send to the algorithm in the 
 we can make change in the massage and then click on "Send". 
 
 ## Algorithem convert - voice to text
-Using a algorithm open source of google to cover from voice to text. 
-the algorithm is at python. 
+Using an open source algorithm to convert the received voice to text. The text is then sent to the Android application. The algorithm is implemented in Python.
 
 ## Android app
-Android application that connect to the local service and get the new massage as a "pop up" massage.
+Android application that connects to the local server and receives the converted text and displays it as a "pop up" message. The application is implemented in Java.
 
 ![](AppHa.JPG)
