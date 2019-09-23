@@ -1,8 +1,7 @@
 # Hackaton Access
-The Hackaton sabjet was accessibility, providing a solution to an existing problem for disabled people.
-Our system answer the problem that deaf people do not hear the announcing systems in different places such as the train station, airport And more.
-Our solution for the problen is a system that converts the message from voice to text and sends the message to deaf people on the mobile phone.
-The system combine 3 parts: 
+The Hackaton subjet was accessibility - to provide a solution to an existing everyday problem for disabled people.
+We addressed the issue that deaf people do not hear the announcing systems in different places such as the train station, airport and more. Our solution for the problen is a system that converts a spoken message from voice to text and displays the message on the mobile application.
+The system consists of 3 parts:
 
 ## Web program
 The web program connect to the system announces and knows when a new message is coming, when there is a new massage the program send to the next part.
